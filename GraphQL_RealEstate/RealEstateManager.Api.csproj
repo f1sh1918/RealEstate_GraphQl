@@ -6,8 +6,12 @@
 
 
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'GraphQL_RealEstate' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>https://localhost:5001;http://localhost:5000</ApplicationURL>
+  </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RealEstateManager.Database2\RealEstateManager.Database2.csproj">
+    <ProjectReference Include="..\RealEstateManager.Database2\RealEstateManager.Database.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
