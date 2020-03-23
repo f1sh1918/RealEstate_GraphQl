@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Api", "GraphQL_RealEstate\RealEstateManager.Api.csproj", "{C922E13E-23A2-4DC7-B429-1B51AA80AA89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Database", "RealEstateManager.Database2\RealEstateManager.Database.csproj", "{6D5A9A41-A917-49B9-BACB-B6E23CC2BCDD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Types", "RealEstateManager.Types\RealEstateManager.Types.csproj", "{AC4AB1BD-1E11-46D8-88F7-18BE68C06279}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Utilities", "RealEstateManager.Utilities\RealEstateManager.Utilities.csproj", "{0048077C-EDE1-49A6-B77A-F4E2EA7AD01F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.DataAccess", "RealEstateManager.DataAccess\RealEstateManager.DataAccess.csproj", "{E457F322-B042-4DF5-BB54-3DEADA46BA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Database", "RealEstateManager.Database\RealEstateManager.Database.csproj", "{6DBC8E91-EC73-416E-875A-85290D601D15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D5A9A41-A917-49B9-BACB-B6E23CC2BCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D5A9A41-A917-49B9-BACB-B6E23CC2BCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D5A9A41-A917-49B9-BACB-B6E23CC2BCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D5A9A41-A917-49B9-BACB-B6E23CC2BCDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC4AB1BD-1E11-46D8-88F7-18BE68C06279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC4AB1BD-1E11-46D8-88F7-18BE68C06279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4AB1BD-1E11-46D8-88F7-18BE68C06279}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,5 +33,9 @@ Global
 		{E457F322-B042-4DF5-BB54-3DEADA46BA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E457F322-B042-4DF5-BB54-3DEADA46BA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E457F322-B042-4DF5-BB54-3DEADA46BA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBC8E91-EC73-416E-875A-85290D601D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBC8E91-EC73-416E-875A-85290D601D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBC8E91-EC73-416E-875A-85290D601D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBC8E91-EC73-416E-875A-85290D601D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

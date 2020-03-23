@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using RealEstateManager.Database;
 using RealEstateManager.Database.Models;
 
-namespace RealEstate.Database
+namespace RealEstateManager.Database
 {
     public static class RealEstateSeedData
     {

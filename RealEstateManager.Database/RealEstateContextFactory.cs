@@ -10,7 +10,7 @@ namespace RealEstateManager.Database
     {
         public RealEstateContext CreateDbContext(string[] args)
         {
-            var configuration = new Microsoft.Extensions.Configuration.ConfigurationBuilder()
+            var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
