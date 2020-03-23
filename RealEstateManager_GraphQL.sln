@@ -1,7 +1,15 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL_RealEstate", "GraphQL_RealEstate\GraphQL_RealEstate.csproj", "{C922E13E-23A2-4DC7-B429-1B51AA80AA89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager", "GraphQL_RealEstate\RealEstateManager.csproj", "{C922E13E-23A2-4DC7-B429-1B51AA80AA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Database", "RealEstateManager.Database\RealEstateManager.Database.csproj", "{498F188B-0BB6-4E34-B9B2-B8DB155FA220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.DataAccess", "RealEstateManager.DataAccess\RealEstateManager.DataAccess.csproj", "{8118B4E5-9D7E-4C6B-A9AD-4ABA23F6C19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Types", "RealEstateManager.Types\RealEstateManager.Types.csproj", "{D3048112-24EE-4F14-8254-588C65CCBF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManager.Utilities", "RealEstateManager.Utilities\RealEstateManager.Utilities.csproj", "{CFFD6DFC-A594-4724-81FC-E4FA888849E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +21,21 @@ Global
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C922E13E-23A2-4DC7-B429-1B51AA80AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498F188B-0BB6-4E34-B9B2-B8DB155FA220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498F188B-0BB6-4E34-B9B2-B8DB155FA220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498F188B-0BB6-4E34-B9B2-B8DB155FA220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498F188B-0BB6-4E34-B9B2-B8DB155FA220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8118B4E5-9D7E-4C6B-A9AD-4ABA23F6C19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8118B4E5-9D7E-4C6B-A9AD-4ABA23F6C19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8118B4E5-9D7E-4C6B-A9AD-4ABA23F6C19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8118B4E5-9D7E-4C6B-A9AD-4ABA23F6C19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3048112-24EE-4F14-8254-588C65CCBF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3048112-24EE-4F14-8254-588C65CCBF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3048112-24EE-4F14-8254-588C65CCBF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3048112-24EE-4F14-8254-588C65CCBF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD6DFC-A594-4724-81FC-E4FA888849E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD6DFC-A594-4724-81FC-E4FA888849E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD6DFC-A594-4724-81FC-E4FA888849E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD6DFC-A594-4724-81FC-E4FA888849E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
